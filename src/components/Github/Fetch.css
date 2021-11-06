@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(34, 109, 207);
+  color: white;
+  padding: 10px 80px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #d4d2d2;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 15px gray;
+}
+.inputone{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+input {
+  padding: 8px;
+  font-weight: bold;
+}
+button {
+  width: 100px;
+  margin: auto;
+  padding: 5px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.image-container {
+  /* border: 5px solid black; */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-btn {
+  width: 240px;
+  border-radius: 50px;
+  margin: 6px 0px;
+  background-color: #226dcf;
+  color: white;
+  border-color: #226dcf;
+  cursor: pointer;
+}
+.image-container > img {
+  width: 80%;
+}
